@@ -38,6 +38,10 @@ npm run server
 
 ```
 
+## Deployment
+
+You can access the live demo of the Tacnique Task Management API by [clicking here](https://task-management-api-cjuu.onrender.com/). Explore the API's features and functionalities in action!
+
 ## Authentication
 
 Certain endpoints in this API require authentication to ensure security. To obtain access to these endpoints, you need to obtain a JSON Web Token (JWT) by logging in. Once you have the token, include it in the `Authorization` header of your requests to access authenticated endpoints.
