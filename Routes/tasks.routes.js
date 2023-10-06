@@ -7,6 +7,7 @@ const {
   updateTask,
   deleteTask,
 } = require("../Controllers/tasks.controller");
+const { rateLimit } = require("../Middlewares/rateLimiter");
 
 // Creating an instance of an Express Router
 const taskRouter = express.Router();
@@ -17,8 +18,8 @@ taskRouter.post("/", addTasks);
 // Handling the HTTP GET request for Getting User Task who is login
 taskRouter.get("/", getTasks);
 
-// Handling the HTTP GET request for Getting All Tasks
-taskRouter.get("/all", allTasks);
+// Handling the HTTP GET request for Getting All Tasks (with RateLimiter)
+taskRouter.get("/all", rateLimit, allTasks);
 
 // Handling the HTTP GET request By Task ID in Params
 taskRouter.get("/:id", getTaskByID);

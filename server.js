@@ -10,6 +10,8 @@ const { userRouter } = require("./Routes/user.routes");
 const { authenticate } = require("./Middlewares/authentication");
 const { taskRouter } = require("./Routes/tasks.routes");
 const { loggerMiddleware } = require("./Middlewares/logger");
+const swaggerJsDoc = require("swagger-jsdoc");
+const swaggerUI = require("swagger-ui-express");
 
 // Load environment variables from a .env file
 require("dotenv").config();
@@ -25,6 +27,33 @@ app.use(express.json());
 
 // Requiring environment Variables
 const PORT = process.env.PORT;
+
+/* ----->>>>>> Swagger <<<<<<------*/
+const options = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "Triveous Ecommerce Backend",
+      version: "1.0.0",
+      description:
+        "Welcome to our Tasks API, built with Node.js, Express, and MongoDB, designed to make task management a breeze, featuring user authentication with JWT tokens, allowing you to securely create, view, edit, and remove tasks while enforcing data security, rate limiting, and comprehensive logging for an efficient and protected experience.",
+    },
+    servers: [
+      {
+        url: "http://localhost:8080/api",
+      },
+    ],
+  },
+  apis: ["./docs/*.js"],
+};
+const specs = swaggerJsDoc(options);
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(specs));
+
+/* ----->>>>>> Home Route <<<<<<------*/
+
+app.get("/", (req, res) => {
+  res.status(200).send(`<h1>Welcome to tacnique Task Management API</h1>`);
+});
 
 // Define API routes and apply middleware
 app.use(loggerMiddleware);
