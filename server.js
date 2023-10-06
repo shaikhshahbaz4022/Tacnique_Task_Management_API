@@ -6,6 +6,7 @@ const cors = require("cors");
 
 // Database connection configuration
 const { connection } = require("./Config/db");
+const { userRouter } = require("./Routes/user.routes");
 
 // Load environment variables from a .env file
 require("dotenv").config();
@@ -21,6 +22,8 @@ app.use(express.json());
 
 // Requiring environment Variables
 const PORT = process.env.PORT;
+
+app.use("/api/user", userRouter);
 
 // Starting the Server
 app.listen(PORT, async () => {
