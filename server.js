@@ -4,6 +4,9 @@ const express = require("express");
 // CORS middleware for handling cross-origin requests
 const cors = require("cors");
 
+// Importing File System Module
+const fs = require("fs");
+
 // Database connection configuration
 const { connection } = require("./Config/db");
 const { userRouter } = require("./Routes/user.routes");
@@ -33,7 +36,7 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Triveous Ecommerce Backend",
+      title: "Tacnique Task Management API",
       version: "1.0.0",
       description:
         "Welcome to our Tasks API, built with Node.js, Express, and MongoDB, designed to make task management a breeze, featuring user authentication with JWT tokens, allowing you to securely create, view, edit, and remove tasks while enforcing data security, rate limiting, and comprehensive logging for an efficient and protected experience.",
@@ -64,6 +67,22 @@ app.use("/api/user", userRouter);
 app.use(authenticate);
 
 app.use("/api/tasks", taskRouter);
+
+/* ----->>>>>> Logging Details Routes <<<<<<------*/
+
+app.get("/api/logs", async (req, res) => {
+  try {
+    // Reading File And Sending
+    fs.readFile("./Helpers/logsinfo.log", "utf-8", (err, data) => {
+      if (err) {
+        return res.status(404).json({ msg: err.message, success: false });
+      }
+      return res.status(200).send(data);
+    });
+  } catch (error) {
+    return res.status(500).json({ msg: error.message });
+  }
+});
 
 // Starting the Server
 app.listen(PORT, async () => {

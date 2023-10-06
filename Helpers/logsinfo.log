@@ -440,3 +440,321 @@
   level: 'warn',
   message: 'HTTP GET /api/tasks/all'
 }
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '167',
+        'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+        accept: 'application/json',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/docs/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,hi;q=0.8'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 584
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '167',
+        'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+        accept: 'application/json',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/docs/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,hi;q=0.8'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 249
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '65',
+        'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+        accept: 'application/json',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/docs/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,hi;q=0.8'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 489
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '63',
+        'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+        accept: 'application/json',
+        'content-type': 'application/json',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/docs/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,hi;q=0.8'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 296
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/logout',
+      headers: {
+        'content-length': '92',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/logout',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 305
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/logout'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/logout',
+      headers: {
+        'content-length': '92',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/logout',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3381
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/logout'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        'content-length': '133',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 242
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        'content-length': '133',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 295
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        'content-length': '92',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 337
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        'content-length': '133',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjYwMjQ2OCwiZXhwIjoxNjk2NjA5NjY4fQ.hetBJN4IZIz9b4wvmjjFvSTshdPalQA3hari-_834I8',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 716
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Windows"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:8080/api/logs',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,hi;q=0.8'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 403 },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico'
+}

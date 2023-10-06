@@ -172,3 +172,284 @@
  *         404:
  *           description: User Not Found
  */
+
+// ------------------------>>> Tasks Routes <<<------------------------
+/**
+ * @swagger
+ * paths:
+ *   /tasks:
+ *     post:
+ *       summary: Add a New Task
+ *       tags: [Tasks]
+ *       security:
+ *         - JWT: []
+ *       requestBody:
+ *         description: Task details to be added
+ *         required: true
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Task'
+ *       responses:
+ *         201:
+ *           description: Task created successfully
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: true
+ *                 data: {
+ *                   _id: "64f1f47978821805b01ec33d",
+ *                   title: "New Task",
+ *                   description: "Task Description",
+ *                   status: "pending",
+ *                   createdAt: "2023-10-05T12:00:00Z",
+ *                   updatedAt: "2023-10-05T12:00:00Z",
+ *                 }
+ *         400:
+ *           description: Bad Request, missing required fields
+ *           content:
+ *             application/json:
+ *               example:
+ *                 msg: "Fields are Required"
+ *                 success: false
+ *         500:
+ *           description: Internal Server Error
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: false
+ *                 error: "Internal Server Error"
+ *                 msg: "An error occurred while creating the task"
+ */
+/**
+ * @swagger
+ * paths:
+ *   /tasks:
+ *     get:
+ *       summary: Get User's Tasks
+ *       tags: [Tasks]
+ *       security:
+ *         - JWT: []
+ *       responses:
+ *         200:
+ *           description: Tasks retrieved successfully
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: true
+ *                 data:
+ *                   - $ref: '#/components/schemas/Task'  # Reference to the Task schema
+ *         404:
+ *           description: No Tasks Found
+ *           content:
+ *             application/json:
+ *               example:
+ *                 msg: "No Tasks Found"
+ *                 success: false
+ *         500:
+ *           description: Internal Server Error
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: false
+ *                 error: "Internal Server Error"
+ *                 msg: "An error occurred while retrieving tasks"
+ */
+
+/**
+ * @swagger
+ * paths:
+ *   /tasks/all:
+ *     get:
+ *       summary: Get All Tasks
+ *       tags: [Tasks]
+ *       security:
+ *         - JWT: []
+ *       responses:
+ *         200:
+ *           description: Tasks retrieved successfully
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: true
+ *                 data:
+ *                   - $ref: '#/components/schemas/Task'  # Reference to the Task schema
+ *         404:
+ *           description: No Tasks Found
+ *           content:
+ *             application/json:
+ *               example:
+ *                 msg: "No Tasks Found"
+ *                 success: false
+ *         500:
+ *           description: Internal Server Error
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: false
+ *                 error: "Internal Server Error"
+ *                 msg: "An error occurred while retrieving tasks"
+ */
+
+/**
+ * @swagger
+ * paths:
+ *   /tasks/{id}:
+ *     get:
+ *       summary: Get Task by ID
+ *       tags: [Tasks]
+ *       security:
+ *         - JWT: []
+ *       parameters:
+ *         - in: path
+ *           name: id
+ *           required: true
+ *           description: ID of the task to retrieve.
+ *           schema:
+ *             type: string
+ *       responses:
+ *         200:
+ *           description: Task retrieved successfully
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: true
+ *                 data:
+ *                   $ref: '#/components/schemas/Task'  # Reference to the Task schema
+ *         404:
+ *           description: Task Not Found
+ *           content:
+ *             application/json:
+ *               example:
+ *                 msg: "Task Not Found"
+ *                 success: false
+ *         500:
+ *           description: Internal Server Error
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: false
+ *                 error: "Internal Server Error"
+ *                 msg: "An error occurred while retrieving the task"
+ */
+
+/**
+ * @swagger
+ * paths:
+ *   /tasks/{id}:
+ *     put:
+ *       summary: Update Task by ID
+ *       tags: [Tasks]
+ *       security:
+ *         - JWT: []
+ *       parameters:
+ *         - in: path
+ *           name: id
+ *           required: true
+ *           description: ID of the task to update.
+ *           schema:
+ *             type: string
+ *       requestBody:
+ *         required: true
+ *         description: Updated task data.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Task'  # Reference to the Task schema
+ *       responses:
+ *         200:
+ *           description: Task updated successfully
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: true
+ *                 data:
+ *                   $ref: '#/components/schemas/Task'  # Reference to the Task schema
+ *         404:
+ *           description: Task Not Found
+ *           content:
+ *             application/json:
+ *               example:
+ *                 msg: "Task Not Found"
+ *                 success: false
+ *         500:
+ *           description: Internal Server Error
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: false
+ *                 error: "Internal Server Error"
+ *                 msg: "An error occurred while updating the task"
+ */
+/**
+ * @swagger
+ * paths:
+ *   /tasks/{id}:
+ *     delete:
+ *       summary: Delete Task by ID
+ *       tags: [Tasks]
+ *       security:
+ *         - JWT: []
+ *       parameters:
+ *         - in: path
+ *           name: id
+ *           required: true
+ *           description: ID of the task to delete.
+ *           schema:
+ *             type: string
+ *       responses:
+ *         200:
+ *           description: Task deleted successfully
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: true
+ *                 msg: "Task Deleted Successfully"
+ *         404:
+ *           description: Task Not Found
+ *           content:
+ *             application/json:
+ *               example:
+ *                 msg: "Task Not Found"
+ *                 success: false
+ *         500:
+ *           description: Internal Server Error
+ *           content:
+ *             application/json:
+ *               example:
+ *                 success: false
+ *                 error: "Internal Server Error"
+ *                 msg: "An error occurred while deleting the task"
+ */
+
+/**
+ * @swagger
+ * /api/logs:
+ *   get:
+ *     summary: Get API Logs
+ *     tags:
+ *       - Logs
+ *     responses:
+ *       200:
+ *         description: Logs retrieved successfully
+ *         content:
+ *           text/plain:
+ *             schema:
+ *               type: string
+ *             example: Your log data goes here...
+ *       404:
+ *         description: Logs not found
+ *         content:
+ *           application/json:
+ *             example:
+ *               msg: Logs not found
+ *               success: false
+ *       500:
+ *         description: Internal Server Error
+ *         content:
+ *           application/json:
+ *             example:
+ *               success: false
+ *               error: Internal Server Error
+ *               msg: An error occurred while retrieving logs
+ */

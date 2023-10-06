@@ -23,5 +23,13 @@ const userSchema = mongoose.Schema(
 // Creating a User model from the user schema
 const UserModel = mongoose.model("user", userSchema);
 
+// Defining Blacklist Schema
+const blacklistSchema = mongoose.Schema({
+  token: { type: String },
+});
+
+// Creating Blacklist Model Constructor
+const BlacklistModel = mongoose.model("blacklist", blacklistSchema);
+
 // Exporting the User model for use in other modules
-module.exports = { UserModel };
+module.exports = { UserModel, BlacklistModel };

@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+const { BlacklistModel } = require("../Models/user.model");
 require("dotenv").config();
 const Private_Key = process.env.Private_Key;
 
@@ -11,7 +12,12 @@ const authenticate = async (req, res, next) => {
         .status(403)
         .json({ msg: "Token Not Provided", success: false });
     }
-
+    const blackToken = await BlacklistModel.findOne({ token });
+    if (blackToken) {
+      return res
+        .status(401)
+        .json({ msg: "Token is Blacklisted", success: false });
+    }
     // Verifying The provided token is Valid or Not
     jwt.verify(token, Private_Key, async function (err, decoded) {
       if (err) {

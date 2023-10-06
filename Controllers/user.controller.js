@@ -1,4 +1,4 @@
-const { UserModel } = require("../Models/user.model");
+const { UserModel, BlacklistModel } = require("../Models/user.model");
 const bcrypt = require("bcrypt");
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
@@ -116,4 +116,28 @@ const loginUser = async (req, res) => {
     });
   }
 };
-module.exports = { registerUser, loginUser };
+
+const LogoutUser = async (req, res) => {
+  try {
+    // Check for Token in Headers
+    const token = req.headers?.authorization?.split(" ")[1];
+
+    // Add Token To blacklist Model for Security
+    const blacklistToken = new BlacklistModel({ token });
+
+    // Save The Token
+    await blacklistToken.save();
+
+    // Return Success Response
+    return res.status(200).json({ msg: "Logout Succesfully", success: true });
+  } catch (error) {
+    // Handling any errors that occur during Login
+    res.status(500).json({
+      success: false,
+      error: "Internal Server Error",
+      msg: error.message,
+    });
+  }
+};
+
+module.exports = { registerUser, loginUser, LogoutUser };

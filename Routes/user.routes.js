@@ -1,5 +1,9 @@
 const express = require("express");
-const { registerUser, loginUser } = require("../Controllers/user.controller");
+const {
+  registerUser,
+  loginUser,
+  LogoutUser,
+} = require("../Controllers/user.controller");
 
 // Creating an instance of an Express Router
 const userRouter = express.Router();
@@ -9,6 +13,9 @@ userRouter.post("/register", registerUser);
 
 // Handling the HTTP POST request for user login
 userRouter.post("/login", loginUser);
+
+// Handling the HTTP POST request for user Logout
+userRouter.post("/logout", LogoutUser);
 
 // Exporting the userRouter
 module.exports = { userRouter };
