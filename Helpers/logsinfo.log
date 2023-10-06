@@ -1,0 +1,78 @@
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        'content-length': '92',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjF9.0sjDhoLGXlVOCEVpbn8l8GbU9iNWl3DK_P8ctqJvGK0',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 430
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        'content-length': '133',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU4Njg1NiwiZXhwIjoxNjk2NTk0MDU2fQ.pp0uMZKcKiCyHwlXgqSW2rGM_BkHAi0ZS5BfVzIMrpQ',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 403 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        'content-length': '133',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 555
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/all'
+}

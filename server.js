@@ -9,6 +9,7 @@ const { connection } = require("./Config/db");
 const { userRouter } = require("./Routes/user.routes");
 const { authenticate } = require("./Middlewares/authentication");
 const { taskRouter } = require("./Routes/tasks.routes");
+const { loggerMiddleware } = require("./Middlewares/logger");
 
 // Load environment variables from a .env file
 require("dotenv").config();
@@ -26,6 +27,8 @@ app.use(express.json());
 const PORT = process.env.PORT;
 
 // Define API routes and apply middleware
+app.use(loggerMiddleware);
+
 app.use("/api/user", userRouter);
 
 // Authentication Middleware
