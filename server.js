@@ -7,6 +7,8 @@ const cors = require("cors");
 // Database connection configuration
 const { connection } = require("./Config/db");
 const { userRouter } = require("./Routes/user.routes");
+const { authenticate } = require("./Middlewares/authentication");
+const { taskRouter } = require("./Routes/tasks.routes");
 
 // Load environment variables from a .env file
 require("dotenv").config();
@@ -23,7 +25,13 @@ app.use(express.json());
 // Requiring environment Variables
 const PORT = process.env.PORT;
 
+// Define API routes and apply middleware
 app.use("/api/user", userRouter);
+
+// Authentication Middleware
+app.use(authenticate);
+
+app.use("/api/tasks", taskRouter);
 
 // Starting the Server
 app.listen(PORT, async () => {
