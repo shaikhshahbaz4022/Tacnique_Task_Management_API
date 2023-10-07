@@ -2575,3 +2575,1328 @@
   level: 'warn',
   message: 'HTTP POST /api/user/register'
 }
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:62602',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3010
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:62620',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:62622',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 219
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/logs',
+      headers: {
+        'app-id': '65141aaebac0bd0d974cabe5',
+        'content-length': '355',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjY4MTAwNCwiZXhwIjoxNjk2Njg4MjA0fQ.UpZqmv0huqqjeMxEbcqp3ghGRsCwKcXg9zci8dGi5iY',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/logs',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 237
+  },
+  level: 'info',
+  message: 'HTTP GET /api/logs'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63042',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3165
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63050',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63052',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 230
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63412',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3091
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63420',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63422',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 218
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:63424',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 355
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63503',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3113
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63514',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63516',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 220
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:63518',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 285
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63623',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3385
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63634',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63636',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 244
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:63638',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 325
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:63640',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 316
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63961',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 4070
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63974',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:63976',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 255
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:63978',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 413
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:63980',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 473
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:64332',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3804
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:64343',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:64345',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 263
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64347',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 338
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64349',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 360
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64351',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64353',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 220
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:64427',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3921
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:64438',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:64440',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 268
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64442',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 311
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64444',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '61',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 363
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64446',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:64448',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 241
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50196',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3877
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50207',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50209',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 319
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50211',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 521
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50213',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 417
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50215',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50217',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 277
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50400',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 4269
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50417',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50419',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 255
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50421',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 401
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50423',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 576
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50425',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50427',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 248
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50479',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 4113
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50494',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:50496',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 255
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50498',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 401
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50500',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '61',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 392
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50502',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:50504',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 283
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}

@@ -15,6 +15,8 @@ const { taskRouter } = require("./Routes/tasks.routes");
 const { loggerMiddleware } = require("./Middlewares/logger");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUI = require("swagger-ui-express");
+const { rateLimit } = require("./Middlewares/rateLimiter");
+const { options } = require("./docs/swaggerOption");
 
 // Create an Express application
 const app = express();
@@ -25,24 +27,6 @@ app.use(cors());
 // Parse JSON request bodies
 app.use(express.json());
 
-/* ----->>>>>> Swagger <<<<<<------*/
-const options = {
-  definition: {
-    openapi: "3.0.0",
-    info: {
-      title: "Tacnique Task Management API",
-      version: "1.0.0",
-      description:
-        "Welcome to our Tasks API, built with Node.js, Express, and MongoDB, designed to make task management a breeze, featuring user authentication with JWT tokens, allowing you to securely create, view, edit, and remove tasks while enforcing data security, rate limiting, and comprehensive logging for an efficient and protected experience.",
-    },
-    servers: [
-      {
-        url: "https://task-management-api-cjuu.onrender.com/api",
-      },
-    ],
-  },
-  apis: ["./docs/*.js"],
-};
 const specs = swaggerJsDoc(options);
 app.use("/docs", swaggerUI.serve, swaggerUI.setup(specs));
 
@@ -54,7 +38,7 @@ app.get("/", (req, res) => {
 
 // Define API routes and apply middleware
 app.use(loggerMiddleware);
-
+app.use(rateLimit);
 app.use("/api/user", userRouter);
 
 // Authentication Middleware
