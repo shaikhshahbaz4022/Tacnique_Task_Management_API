@@ -9,6 +9,7 @@ const fs = require("fs");
 
 // Database connection configuration
 const { connection } = require("./Config/db");
+
 const { userRouter } = require("./Routes/user.routes");
 const { authenticate } = require("./Middlewares/authentication");
 const { taskRouter } = require("./Routes/tasks.routes");
@@ -27,6 +28,7 @@ app.use(cors());
 // Parse JSON request bodies
 app.use(express.json());
 
+// swagger Configuration
 const specs = swaggerJsDoc(options);
 app.use("/docs", swaggerUI.serve, swaggerUI.setup(specs));
 

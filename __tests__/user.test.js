@@ -2,14 +2,14 @@ const request = require("supertest");
 const { app } = require("../app");
 
 const { uniqueEmail } = require("../Helpers/uniqueEmail");
-const email = uniqueEmail();
+const emailUnique = uniqueEmail();
 const emailforExisting = uniqueEmail();
 
 describe("User Registration", () => {
   it("should register a new user", async () => {
     const userData = {
       username: "testuser",
-      email: email,
+      email: emailUnique,
       password: "testpassword",
     };
     const res = await request(app).post("/api/user/register").send(userData);
@@ -32,7 +32,7 @@ describe("User Registration", () => {
   it("should handle duplicate email", async () => {
     const userData = {
       username: "existinguser",
-      email: email,
+      email: emailUnique,
       password: "testpassword",
     };
     const res = await request(app).post("/api/user/register").send(userData);
@@ -45,7 +45,7 @@ describe("User Registration", () => {
 describe("User Login", () => {
   it("should login a user with valid credentials", async () => {
     const loginData = {
-      email: email,
+      email: emailUnique,
       password: "testpassword",
     };
     const res = await request(app).post("/api/user/login").send(loginData);
@@ -60,7 +60,7 @@ describe("User Login", () => {
 
   it("should handle invalid credentials", async () => {
     const userData = {
-      email: email,
+      email: emailUnique,
       password: "InvalidPassword",
     };
     const res = await request(app).post("/api/user/login").send(userData);

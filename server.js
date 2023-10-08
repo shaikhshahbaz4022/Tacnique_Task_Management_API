@@ -2,6 +2,9 @@ const { app } = require("./app");
 // Load environment variables from a .env file
 require("dotenv").config();
 
+// Database connection configuration
+const { connection } = require("./Config/db");
+
 // Requiring environment Variables
 const PORT = process.env.PORT;
 
