@@ -25,3 +25,1252 @@
   level: 'warn',
   message: 'HTTP GET /api/logs'
 }
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58404',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '54',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3523
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58402',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3908
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58427',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58429',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 250
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:58425',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxMDMzLCJleHAiOjE2OTY3NTgyMzN9.c0izE-C4KSaSIUej39Wqit09Ko7giPtAzIkNEd6KbcE',
+        'content-type': 'application/json',
+        'content-length': '56',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 686
+  },
+  level: 'info',
+  message: 'HTTP POST /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58431',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 279
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:58433',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxMDMzLCJleHAiOjE2OTY3NTgyMzN9.c0izE-C4KSaSIUej39Wqit09Ko7giPtAzIkNEd6KbcE',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 227
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58435',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '61',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 288
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58439',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58441',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 216
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:58437',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxMDMzLCJleHAiOjE2OTY3NTgyMzN9.c0izE-C4KSaSIUej39Wqit09Ko7giPtAzIkNEd6KbcE',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 497
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        host: '127.0.0.1:58443',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxMDMzLCJleHAiOjE2OTY3NTgyMzN9.c0izE-C4KSaSIUej39Wqit09Ko7giPtAzIkNEd6KbcE',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 786
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/65225db97620f8b187627ebe',
+      headers: {
+        host: '127.0.0.1:58445',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxMDMzLCJleHAiOjE2OTY3NTgyMzN9.c0izE-C4KSaSIUej39Wqit09Ko7giPtAzIkNEd6KbcE',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/65225db97620f8b187627ebe',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 538
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/65225db97620f8b187627ebe'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/615e8e5b48bf1f33a4e4d7d1',
+      headers: {
+        host: '127.0.0.1:58447',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxMDMzLCJleHAiOjE2OTY3NTgyMzN9.c0izE-C4KSaSIUej39Wqit09Ko7giPtAzIkNEd6KbcE',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/615e8e5b48bf1f33a4e4d7d1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 575
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/tasks/615e8e5b48bf1f33a4e4d7d1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58614',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3923
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58629',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58631',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 268
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58633',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 294
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58635',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '61',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 301
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58637',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58639',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 230
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58694',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3982
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58710',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58712',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 227
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58714',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 311
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58716',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 306
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58718',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58720',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 242
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58802',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '54',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3622
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:58816',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxOTQzLCJleHAiOjE2OTY3NTkxNDN9.G9Lf7k7OJEVbQduQTybOv-CwFGguoLUy36uNi0hgN5I',
+        'content-type': 'application/json',
+        'content-length': '56',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 526
+  },
+  level: 'info',
+  message: 'HTTP POST /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:58818',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxOTQzLCJleHAiOjE2OTY3NTkxNDN9.G9Lf7k7OJEVbQduQTybOv-CwFGguoLUy36uNi0hgN5I',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 229
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58822',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:58820',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxOTQzLCJleHAiOjE2OTY3NTkxNDN9.G9Lf7k7OJEVbQduQTybOv-CwFGguoLUy36uNi0hgN5I',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 495
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        host: '127.0.0.1:58826',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxOTQzLCJleHAiOjE2OTY3NTkxNDN9.G9Lf7k7OJEVbQduQTybOv-CwFGguoLUy36uNi0hgN5I',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 796
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/65226147fb4d8b67dbeff15a',
+      headers: {
+        host: '127.0.0.1:58831',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxOTQzLCJleHAiOjE2OTY3NTkxNDN9.G9Lf7k7OJEVbQduQTybOv-CwFGguoLUy36uNi0hgN5I',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/65226147fb4d8b67dbeff15a',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 432
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/65226147fb4d8b67dbeff15a'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/615e8e5b48bf1f33a4e4d7d1',
+      headers: {
+        host: '127.0.0.1:58833',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUxOTQzLCJleHAiOjE2OTY3NTkxNDN9.G9Lf7k7OJEVbQduQTybOv-CwFGguoLUy36uNi0hgN5I',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/615e8e5b48bf1f33a4e4d7d1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 451
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/tasks/615e8e5b48bf1f33a4e4d7d1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58798',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '81',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 9520
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58839',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 336
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58841',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '62',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 285
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58843',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58824',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '85',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 5855
+  },
+  level: 'error',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58845',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 223
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:58980',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '54',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 3467
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:58978',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '80',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3989
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:59005',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:59001',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        'content-type': 'application/json',
+        'content-length': '92',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 523
+  },
+  level: 'info',
+  message: 'HTTP POST /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/register',
+      headers: {
+        host: '127.0.0.1:59007',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '84',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/register',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 230
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/register'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:59009',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 218
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:59011',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 279
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks',
+      headers: {
+        host: '127.0.0.1:59013',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 448
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:59015',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '61',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 278
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:59019',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        host: '127.0.0.1:59021',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '59',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 225
+  },
+  level: 'warn',
+  message: 'HTTP POST /api/user/login'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/all',
+      headers: {
+        host: '127.0.0.1:59017',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/all',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 875
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/all'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/652262da2c446233aceeb559',
+      headers: {
+        host: '127.0.0.1:59023',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/652262da2c446233aceeb559',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 526
+  },
+  level: 'info',
+  message: 'HTTP GET /api/tasks/652262da2c446233aceeb559'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/615e8e5b48bf1f33a4e4d7d1',
+      headers: {
+        host: '127.0.0.1:59025',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/615e8e5b48bf1f33a4e4d7d1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 502
+  },
+  level: 'warn',
+  message: 'HTTP GET /api/tasks/615e8e5b48bf1f33a4e4d7d1'
+}
+{
+  meta: {
+    req: {
+      url: '/api/tasks/652262dd2c446233aceeb566',
+      headers: {
+        host: '127.0.0.1:59027',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTIwMTFlNzIxZmE3MDc5OTAwNDAwNTciLCJlbWFpbCI6IlRhY25pcXVlMDFAZ21haWwuY29tIiwiaWF0IjoxNjk2NzUyMzQ2LCJleHAiOjE2OTY3NTk1NDZ9.GDIX_9zRb3Yu0MAXz2d8jJO7m4um3bAfMMOp9rgF_3c',
+        'content-type': 'application/json',
+        'content-length': '93',
+        connection: 'close'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/api/tasks/652262dd2c446233aceeb566',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 736
+  },
+  level: 'info',
+  message: 'HTTP PUT /api/tasks/652262dd2c446233aceeb566'
+}
