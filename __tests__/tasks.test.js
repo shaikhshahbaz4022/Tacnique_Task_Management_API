@@ -7,6 +7,7 @@ const request = require("supertest");
 let userToken; // for saving token
 let createdTask; // for saving Task Object
 let userID;
+
 beforeAll(async () => {
   const loginData = {
     email: "Tacnique01@gmail.com",
@@ -131,5 +132,46 @@ describe("Update Task by ID", () => {
     expect(res.body.msg).toBe("Task Updated Succesfully");
     expect(res.body.success).toBe(true);
     expect(res.body.data).toMatchObject(updatedData);
+  });
+
+  // for task not found
+  it("should handle a task not found by ID", async () => {
+    const nonExistentID = "615e8e5b48bf1f33a4e5d7d9"; // wrong ID
+
+    const updatedData = {
+      title: "Updated Task",
+      description: "Updated Description",
+      status: "completed",
+    };
+
+    const response = await request(app)
+      .put(`/api/tasks/${nonExistentID}`)
+      .set("Authorization", `Bearer ${userToken}`)
+      .send(updatedData);
+
+    expect(response.status).toBe(404);
+    expect(response.body.success).toBe(false);
+    expect(response.body.msg).toBe("Task Not Found");
+  });
+});
+
+// Delete Task By task ID
+describe("Delete Task By ID", () => {
+  it("should delete a task by ID when the task exists", async () => {
+    const task = new TaskModel({
+      title: "task For Delete",
+      description: "Description for detetion of Task",
+      status: "completed",
+      userID: userID,
+    });
+    await task.save();
+
+    const res = await request(app)
+      .delete(`/api/tasks/${task._id}`)
+      .set("Authorization", `Bearer ${userToken}`);
+
+    expect(res.status).toBe(200);
+    expect(res.body.success).toBe(true);
+    expect(res.body.msg).toBe("Task Deleted Succesfully");
   });
 });
