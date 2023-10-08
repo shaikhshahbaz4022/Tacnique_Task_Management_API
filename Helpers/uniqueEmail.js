@@ -2,7 +2,6 @@
 const uniqueEmail = () => {
   let randomGeneration = Math.floor(Math.random() * 5000);
   let randomEmail = `testuser${randomGeneration}.gmail.com`;
-  console.log(randomEmail);
   return randomEmail;
 };
 module.exports = { uniqueEmail };

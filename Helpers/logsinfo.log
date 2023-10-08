@@ -5800,3 +5800,29 @@
   level: 'info',
   message: 'HTTP DELETE /api/tasks/65227867f2e9b0edae793968'
 }
+{
+  meta: {
+    req: {
+      url: '/api/user/login',
+      headers: {
+        'content-length': '89',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'connect.sid=s%3AIEK-7m4EN_jzkC9CF8Xp_xH4l3pZPvo3.53uwJDJ6dHd0LBFMKQeHtelCDuz%2Bmcw66ji125ESOh8',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NTFmZGM2MmI1ZTBjYTRiNTk4ZTE0NTEiLCJlbWFpbCI6InNoYWlraHNoYWhiYXo0MDIyQGdtYWlsLmNvbSIsImlhdCI6MTY5NjU5NDU3NCwiZXhwIjoxNjk2NjAxNzc0fQ.77F3A6c-EfqnRigUgZr_yYD3TCL8s1ae6at-ZmzrhUI',
+        'content-type': 'application/json',
+        host: 'localhost:8080',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 385
+  },
+  level: 'info',
+  message: 'HTTP POST /api/user/login'
+}

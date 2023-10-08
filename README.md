@@ -75,6 +75,23 @@ Explore the powerful API endpoints available in this project:
 
 <img src="./docs/tasks_diagram.png" alt="Entity Error">
 
+## TestCases Using Jest And Supertest
+
+```bash
+Test-Driven Development (TDD) using Jest and SuperTest was employed, where tests were written before writing the actual code, ensuring a robust and comprehensively tested codebase.
+
+# Run the test cases After Clone
+
+npm test
+
+# to detect Any Errors
+
+npm run detect
+
+```
+
+<img src="./docs/testCases.png" alt="Error-1">
+
 ## Snapshots
 
 <img src="./docs/first.png" alt="Error-1">
